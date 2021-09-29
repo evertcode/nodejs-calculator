@@ -1,7 +1,15 @@
 {
-  "name": "node-starter",
-  "version": "0.0.0",
+  "name": "nodejs-calculator",
+  "description": "Node JS Calculator",
+  "version": "0.1.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.13"
+  },
+  "dependencies": {
+    "express": "4.17.1"
   }
 }
